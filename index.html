@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Digite o ano de nascimento:</p>
+            <input type="number" id="spawn" placeholder="Digite seu ano de nascimento">
+            
+            
+            <p>Estilo</p>
+            <input type="radio" id="sex" name="sex" value="anime">
+            <label for="anime">Dark</label>
+            <input type="radio" id="sex" name="sex" value="feminino" checked>
+            <label for="feminino">White</label>
+        </p>
+        <p>
+            <button id="verificar" onclick="verificar()">Verificar</button>
+        </p>
+
+        </div>
+        <div id ="res">
+        Preencha os campos acima para verificar sua idade e estilo.  
+        </div>
+    </section>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/kanna-alice" target="_blank">Wallyson</a></p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html> 
