@@ -1,0 +1,86 @@
+body {
+    background: rgb(70, 142, 236); 
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+
+img {
+    max-width: 100%;  
+    border-radius: 10px; 
+    display: block;
+    margin: 10px auto; 
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+div {
+    padding: 15px;
+}
+
+#verificar {
+    background: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}  
+
+.fundo-rgb {
+    animation: animacaoRgb 8s linear infinite;
+}
+
+    @keyframes animacaoRgb {
+    0% { background-color: #ff0000; }
+    25% { background-color: #0000ff; } 
+    50% { background-color: #00ff00; } 
+    75% { background-color: #ff00ff; }  
+    100% { background-color: #ff0000; } 
+}    
+            
+input#spawn {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+    footer {
+        clear: both;
+        font-size: 12px;
+    }
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+}
+ 
